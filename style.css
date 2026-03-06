@@ -1,0 +1,80 @@
+/* Basic page setup */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Header layout */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Sections look consistent */
+section {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+/* Image row: 3 photos evenly spaced */
+.image-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.image-row img {
+  border-radius: 10px;
+}
+
+/* Links row: evenly spaced */
+.links-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Skills and Experience side-by-side */
+.two-column {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.two-column section {
+  flex: 1;
+  min-width: 260px;
+}
+
+/* Lists spacing */
+ul,
+ol {
+  margin-top: 8px;
+}
+
+hr {
+  margin: 20px 0;
+}
